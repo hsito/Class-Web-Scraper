@@ -14,4 +14,5 @@ class CoursesItem(scrapy.Item):
     subject = scrapy.Field()
     classNum = scrapy.Field()
     section = scrapy.Field()
+    courseDescription = scrapy.Field()
 

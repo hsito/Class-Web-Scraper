@@ -20,13 +20,13 @@ function main(splash, args)
 
     -- Set the value for the dropdown with the name 'p_term' to '202410' (Fall 2023)
     splash:runjs([[document.querySelector("[name='p_term']").value = "202410";]])
-    assert(splash:wait(1))
+    assert(splash:wait(5))
 
     splash:runjs([[document.querySelector('input[type="submit"]').click();]])
-    assert(splash:wait(1))
+    assert(splash:wait(5))
     
         splash:runjs([[document.querySelector("[id='subj_id']").value = "CSC";]])
-    assert(splash:wait(1))
+    assert(splash:wait(5))
     
         splash:runjs([[document.querySelector('input[type="submit"]').click();]])
     assert(splash:wait(3))
@@ -68,3 +68,22 @@ end
 
             yield loaded_item
 
+            # Get the 'View Catalog Entry' URL and make a request to scrape the course description
+            view_catalog_url = selector.css('td a::attr(href)').get()
+            yield SplashRequest(view_catalog_url, self.parse_course_description, endpoint='execute',
+                                args={'lua_source': self.lua_script, 'user_agent': 'Mozilla/5.0'},
+                                meta={'item': loaded_item})
+
+    def parse_course_description(self, response):
+        item = response.meta['item']
+        html = response.data['html']
+        selector = Selector(text=html)
+
+        course_description = selector.css('.ntdefault::text').get()
+
+        if course_description:
+            item['courseDescription'] = course_description.strip()
+        else:
+            item['courseDescription'] = ''
+
+        yield item
