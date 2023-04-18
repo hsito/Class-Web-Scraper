@@ -50,15 +50,32 @@ end
 
         html = response.data['html']
         selector = Selector(text=html)
-        courses = selector.css('th a::text').getall()
+        tableRows = selector.css('table.datadisplaytable:nth-child(6) > tbody:nth-child(2) > tr')
 
-        for course in courses:
+
+        print('tr')
+        print(tableRows)
+        print('length of table rows')
+        print(len(tableRows))
+
+        for i in range(0, len(tableRows)-1, 2):
+
+            #first table is the course info, second table is the course description
+            course_table = tableRows[i]
+            course_description_table = tableRows[i + 1]
+
+            # Get the course name, CRN, subject, and section
+
+
+            course = course_table.css('th a::text').get()
+
+            if not course:
+                continue
+
             course = course.strip()
             course_tokens = re.split(r'\s+-\s+', course)
-
             loader = ItemLoader(item=CoursesItem())
             loader.default_output_processor = TakeFirst()
-
             loader.add_value('className', course_tokens[0])
             loader.add_value('CRN', course_tokens[1])
             loader.add_value('subject', course_tokens[2])
@@ -68,8 +85,10 @@ end
 
             yield loaded_item
 
+            print(f"Requesting course description for: {loaded_item}")
             # Get the 'View Catalog Entry' URL and make a request to scrape the course description
-            view_catalog_url = selector.css('td a::attr(href)').get()
+            view_catalog_url = 'https://seanet.uncw.edu' + course_description_table.css('td a::attr(href)').get()
+            print(f"View Catalog URL: {view_catalog_url}")
             yield SplashRequest(view_catalog_url, self.parse_course_description, endpoint='execute',
                                 args={'lua_source': self.lua_script, 'user_agent': 'Mozilla/5.0'},
                                 meta={'item': loaded_item})
@@ -79,11 +98,19 @@ end
         html = response.data['html']
         selector = Selector(text=html)
 
-        course_description = selector.css('.ntdefault::text').get()
+        course_description_element = selector.css('td.ntdefault')
 
-        if course_description:
-            item['courseDescription'] = course_description.strip()
+        if course_description_element:
+            description_text = course_description_element[0].xpath('text()').get()
+
+            if description_text:
+                print(f"Course description found: {description_text.strip()}")
+                item['courseDescription'] = description_text.strip()
+            else:
+                print("No course description found")
+                item['courseDescription'] = ''
         else:
+            print("No course description found")
             item['courseDescription'] = ''
 
         yield item
