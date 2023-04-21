@@ -1,0 +1,712 @@
+[
+  {
+    "className": "Introduction to Computer Programming (C)",
+    "CRN": "10006",
+    "subject": "CSC",
+    "classNum": "112",
+    "section": "001",
+    "startTime": "0800",
+    "endTime": "0850",
+    "days": "MWF"
+  },
+  {
+    "className": "Introduction to Computer Programming (Python)",
+    "CRN": "10007",
+    "subject": "CSC",
+    "classNum": "112",
+    "section": "002",
+    "startTime": "1100",
+    "endTime": "1150",
+    "days": "MWF"
+  },
+  {
+    "className": "Introduction to Computer Science",
+    "CRN": "10008",
+    "subject": "CSC",
+    "classNum": "131",
+    "section": "001",
+    "startTime": "0900",
+    "endTime": "1040",
+    "days": "MW"
+  },
+  {
+    "className": "Introduction to Computer Science",
+    "CRN": "10009",
+    "subject": "CSC",
+    "classNum": "131",
+    "section": "002",
+    "startTime": "1300",
+    "endTime": "1440",
+    "days": "TR"
+  },
+  {
+    "className": "Introduction to Computer Science",
+    "CRN": "10010",
+    "subject": "CSC",
+    "classNum": "131",
+    "section": "003",
+    "startTime": "1300",
+    "endTime": "1440",
+    "days": "TR"
+  },
+  {
+    "className": "Introduction to Computer Science",
+    "CRN": "10011",
+    "subject": "CSC",
+    "classNum": "131",
+    "section": "004",
+    "startTime": "1100",
+    "endTime": "1240",
+    "days": "MW"
+  },
+  {
+    "className": "Introduction to Computer Science",
+    "CRN": "10012",
+    "subject": "CSC",
+    "classNum": "131",
+    "section": "005",
+    "startTime": "0900",
+    "endTime": "1040",
+    "days": "TR"
+  },
+  {
+    "className": "Introduction to Computer Science",
+    "CRN": "10013",
+    "subject": "CSC",
+    "classNum": "131",
+    "section": "006",
+    "startTime": "0900",
+    "endTime": "1040",
+    "days": "MW"
+  },
+  {
+    "className": "Introduction to Computer Science",
+    "CRN": "10014",
+    "subject": "CSC",
+    "classNum": "131",
+    "section": "007",
+    "startTime": "0900",
+    "endTime": "1040",
+    "days": "MW"
+  },
+  {
+    "className": "Introduction to Computer Science",
+    "CRN": "10015",
+    "subject": "CSC",
+    "classNum": "131",
+    "section": "008",
+    "startTime": "1300",
+    "endTime": "1440",
+    "days": "TR"
+  },
+  {
+    "className": "Discrete Mathematical Structures",
+    "CRN": "10016",
+    "subject": "CSC",
+    "classNum": "133",
+    "section": "001",
+    "startTime": "0900",
+    "endTime": "1015",
+    "days": "TR"
+  },
+  {
+    "className": "Discrete Mathematical Structures",
+    "CRN": "10017",
+    "subject": "CSC",
+    "classNum": "133",
+    "section": "002",
+    "startTime": "1100",
+    "endTime": "1215",
+    "days": "TR"
+  },
+  {
+    "className": "Discrete Mathematical Structures",
+    "CRN": "10018",
+    "subject": "CSC",
+    "classNum": "133",
+    "section": "003",
+    "startTime": "0900",
+    "endTime": "0950",
+    "days": "MWF"
+  },
+  {
+    "className": "Discrete Mathematical Structures",
+    "CRN": "10019",
+    "subject": "CSC",
+    "classNum": "133",
+    "section": "004",
+    "startTime": "1000",
+    "endTime": "1050",
+    "days": "MWF"
+  },
+  {
+    "className": "Discrete Mathematical Structures",
+    "CRN": "10020",
+    "subject": "CSC",
+    "classNum": "133",
+    "section": "005",
+    "startTime": "1230",
+    "endTime": "1345",
+    "days": "TR"
+  },
+  {
+    "className": "3-D Computer Graphics Tools and Literacy",
+    "CRN": "13646",
+    "subject": "CSC",
+    "classNum": "220",
+    "section": "001",
+    "startTime": "1200",
+    "endTime": "1350",
+    "days": "MW"
+  },
+  {
+    "className": "3-D Computer Graphics Tools and Literacy",
+    "CRN": "11378",
+    "subject": "CSC",
+    "classNum": "220",
+    "section": "002",
+    "startTime": "1400",
+    "endTime": "1515",
+    "days": "TR"
+  },
+  {
+    "className": "Introduction to Data Structures",
+    "CRN": "10021",
+    "subject": "CSC",
+    "classNum": "231",
+    "section": "001",
+    "startTime": "1300",
+    "endTime": "1350",
+    "days": "MW"
+  },
+  {
+    "className": "Introduction to Data Structures",
+    "CRN": "10022",
+    "subject": "CSC",
+    "classNum": "231",
+    "section": "002",
+    "startTime": "1300",
+    "endTime": "1350",
+    "days": "MW"
+  },
+  {
+    "className": "Introduction to Data Structures",
+    "CRN": "10023",
+    "subject": "CSC",
+    "classNum": "231",
+    "section": "003",
+    "startTime": "1300",
+    "endTime": "1350",
+    "days": "MW"
+  },
+  {
+    "className": "Introduction to Data Structures",
+    "CRN": "10025",
+    "subject": "CSC",
+    "classNum": "231",
+    "section": "004",
+    "startTime": "1200",
+    "endTime": "1250",
+    "days": "MW"
+  },
+  {
+    "className": "Computer Organization",
+    "CRN": "10028",
+    "subject": "CSC",
+    "classNum": "242",
+    "section": "001",
+    "startTime": "1530",
+    "endTime": "1645",
+    "days": "TR"
+  },
+  {
+    "className": "Computer Organization",
+    "CRN": "10150",
+    "subject": "CSC",
+    "classNum": "242",
+    "section": "002",
+    "startTime": "1200",
+    "endTime": "1250",
+    "days": "MWF"
+  },
+  {
+    "className": "Computer Organization",
+    "CRN": "10153",
+    "subject": "CSC",
+    "classNum": "242",
+    "section": "003",
+    "startTime": "0800",
+    "endTime": "0915",
+    "days": "TR"
+  },
+  {
+    "className": "Computer Organization",
+    "CRN": "10156",
+    "subject": "CSC",
+    "classNum": "242",
+    "section": "004",
+    "startTime": "0930",
+    "endTime": "1045",
+    "days": "TR"
+  },
+  {
+    "className": "Introduction to Artificial Intelligence",
+    "CRN": "10030",
+    "subject": "CSC",
+    "classNum": "302",
+    "section": "001",
+    "startTime": "1400",
+    "endTime": "1515",
+    "days": "TR"
+  },
+  {
+    "className": "Introduction to Quantum Computing",
+    "CRN": "13351",
+    "subject": "CSC",
+    "classNum": "310",
+    "section": "001",
+    "startTime": "1100",
+    "endTime": "1215",
+    "days": "TR"
+  },
+  {
+    "className": "Computer Animation",
+    "CRN": "10174",
+    "subject": "CSC",
+    "classNum": "320",
+    "section": "001",
+    "startTime": "1230",
+    "endTime": "1345",
+    "days": "TR"
+  },
+  {
+    "className": "Object-Oriented Programming and Design",
+    "CRN": "10069",
+    "subject": "CSC",
+    "classNum": "331",
+    "section": "001",
+    "startTime": "1200",
+    "endTime": "1250",
+    "days": "MW"
+  },
+  {
+    "className": "Object-Oriented Programming and Design",
+    "CRN": "10070",
+    "subject": "CSC",
+    "classNum": "331",
+    "section": "002",
+    "startTime": "1200",
+    "endTime": "1250",
+    "days": "MW"
+  },
+  {
+    "className": "Object-Oriented Programming and Design",
+    "CRN": "10071",
+    "subject": "CSC",
+    "classNum": "331",
+    "section": "003",
+    "startTime": "1200",
+    "endTime": "1250",
+    "days": "MW"
+  },
+  {
+    "className": "Scientific Computing",
+    "CRN": "10157",
+    "subject": "CSC",
+    "classNum": "340",
+    "section": "001",
+    "startTime": "1100",
+    "endTime": "1215",
+    "days": "TR"
+  },
+  {
+    "className": "Operating Systems",
+    "CRN": "10036",
+    "subject": "CSC",
+    "classNum": "342",
+    "section": "001",
+    "startTime": "1530",
+    "endTime": "1645",
+    "days": "TR"
+  },
+  {
+    "className": "Computer Networks",
+    "CRN": "10158",
+    "subject": "CSC",
+    "classNum": "344",
+    "section": "001",
+    "startTime": "1400",
+    "endTime": "1515",
+    "days": "MW"
+  },
+  {
+    "className": "Computer Networks",
+    "CRN": "10159",
+    "subject": "CSC",
+    "classNum": "344",
+    "section": "002",
+    "startTime": "1530",
+    "endTime": "1645",
+    "days": "MW"
+  },
+  {
+    "className": "Applied Software Security",
+    "CRN": "10037",
+    "subject": "CSC",
+    "classNum": "351",
+    "section": "001",
+    "startTime": "1400",
+    "endTime": "1515",
+    "days": "TR"
+  },
+  {
+    "className": "Cyber Operations",
+    "CRN": "13575",
+    "subject": "CSC",
+    "classNum": "358",
+    "section": "001",
+    "startTime": "1100",
+    "endTime": "1150",
+    "days": "MWF"
+  },
+  {
+    "className": "Formal Languages and Computability",
+    "CRN": "10160",
+    "subject": "CSC",
+    "classNum": "360",
+    "section": "001",
+    "startTime": "1400",
+    "endTime": "1515",
+    "days": "TR"
+  },
+  {
+    "className": "Formal Languages and Computability",
+    "CRN": "10038",
+    "subject": "CSC",
+    "classNum": "360",
+    "section": "002",
+    "startTime": "1530",
+    "endTime": "1645",
+    "days": "TR"
+  },
+  {
+    "className": "Client-Side Web Development",
+    "CRN": "10039",
+    "subject": "CSC",
+    "classNum": "365",
+    "section": "001",
+    "startTime": "1530",
+    "endTime": "1645",
+    "days": "TR"
+  },
+  {
+    "className": "Visual Design for Multimedia",
+    "CRN": "10168",
+    "subject": "CSC",
+    "classNum": "368",
+    "section": "001",
+    "startTime": "1430",
+    "endTime": "1545",
+    "days": "MW"
+  },
+  {
+    "className": "Computer Graphics",
+    "CRN": "10161",
+    "subject": "CSC",
+    "classNum": "370",
+    "section": "001",
+    "startTime": "0830",
+    "endTime": "0945",
+    "days": "MW"
+  },
+  {
+    "className": "Design and Analysis of Algorithms",
+    "CRN": "10040",
+    "subject": "CSC",
+    "classNum": "380",
+    "section": "001",
+    "startTime": "1400",
+    "endTime": "1515",
+    "days": "TR"
+  },
+  {
+    "className": "Design and Analysis of Algorithms",
+    "CRN": "10041",
+    "subject": "CSC",
+    "classNum": "380",
+    "section": "802",
+    "startTime": "0930",
+    "endTime": "1045",
+    "days": "TR"
+  },
+  {
+    "className": "Professional and Ethical Issues in Computer Science",
+    "CRN": "10046",
+    "subject": "CSC",
+    "classNum": "385",
+    "section": "001",
+    "startTime": "0930",
+    "endTime": "1045",
+    "days": "TR"
+  },
+  {
+    "className": "Professional and Ethical Issues in Computer Science",
+    "CRN": "10042",
+    "subject": "CSC",
+    "classNum": "385",
+    "section": "800",
+    "startTime": "0900",
+    "endTime": "0950",
+    "days": "MWF"
+  },
+  {
+    "className": "Professional and Ethical Issues in Computer Science",
+    "CRN": "10043",
+    "subject": "CSC",
+    "classNum": "385",
+    "section": "801",
+    "startTime": "1000",
+    "endTime": "1050",
+    "days": "MWF"
+  },
+  {
+    "className": "Computer Gaming",
+    "CRN": "10048",
+    "subject": "CSC",
+    "classNum": "421",
+    "section": "001",
+    "startTime": "1300",
+    "endTime": "1415",
+    "days": "MW"
+  },
+  {
+    "className": "Digital Visual Effects",
+    "CRN": "10051",
+    "subject": "CSC",
+    "classNum": "430",
+    "section": "001",
+    "startTime": "1000",
+    "endTime": "1115",
+    "days": "MW"
+  },
+  {
+    "className": "Deep Machine Learning",
+    "CRN": "10054",
+    "subject": "CSC",
+    "classNum": "432",
+    "section": "001",
+    "startTime": "1530",
+    "endTime": "1645",
+    "days": "TR"
+  },
+  {
+    "className": "Natural Language Processing",
+    "CRN": "10162",
+    "subject": "CSC",
+    "classNum": "433",
+    "section": "001",
+    "startTime": "1100",
+    "endTime": "1215",
+    "days": "TR"
+  },
+  {
+    "className": "Programming Languages",
+    "CRN": "10057",
+    "subject": "CSC",
+    "classNum": "434",
+    "section": "001",
+    "startTime": "1400",
+    "endTime": "1515",
+    "days": "MW"
+  },
+  {
+    "className": "Programming Languages",
+    "CRN": "10058",
+    "subject": "CSC",
+    "classNum": "434",
+    "section": "002",
+    "startTime": "1530",
+    "endTime": "1645",
+    "days": "MW"
+  },
+  {
+    "className": "Programming Languages",
+    "CRN": "10060",
+    "subject": "CSC",
+    "classNum": "434",
+    "section": "003",
+    "startTime": "0930",
+    "endTime": "1045",
+    "days": "TR"
+  },
+  {
+    "className": "Software Engineering",
+    "CRN": "10063",
+    "subject": "CSC",
+    "classNum": "450",
+    "section": "001",
+    "startTime": "1100",
+    "endTime": "1215",
+    "days": "TR"
+  },
+  {
+    "className": "Software Engineering",
+    "CRN": "10064",
+    "subject": "CSC",
+    "classNum": "450",
+    "section": "002",
+    "startTime": "1230",
+    "endTime": "1345",
+    "days": "TR"
+  },
+  {
+    "className": "Computer Vision",
+    "CRN": "10065",
+    "subject": "CSC",
+    "classNum": "452",
+    "section": "001",
+    "startTime": "1230",
+    "endTime": "1345",
+    "days": "TR"
+  },
+  {
+    "className": "Database Design and Implementation",
+    "CRN": "10066",
+    "subject": "CSC",
+    "classNum": "455",
+    "section": "001",
+    "startTime": "1230",
+    "endTime": "1345",
+    "days": "MW"
+  },
+  {
+    "className": "Database Design and Implementation",
+    "CRN": "10067",
+    "subject": "CSC",
+    "classNum": "455",
+    "section": "002",
+    "startTime": "1400",
+    "endTime": "1515",
+    "days": "MW"
+  },
+  {
+    "className": "Database Design and Implementation",
+    "CRN": "10072",
+    "subject": "CSC",
+    "classNum": "455",
+    "section": "003",
+    "startTime": "1530",
+    "endTime": "1645",
+    "days": "MW"
+  },
+  {
+    "className": "Malware Analysis",
+    "CRN": "13680",
+    "subject": "CSC",
+    "classNum": "466",
+    "section": "001",
+    "startTime": "1200",
+    "endTime": "1250",
+    "days": "MWF"
+  },
+  {
+    "className": "Introduction to Cryptography",
+    "CRN": "10167",
+    "subject": "CSC",
+    "classNum": "475",
+    "section": "002",
+    "startTime": "1100",
+    "endTime": "1215",
+    "days": "TR"
+  },
+  {
+    "className": "Internet of Things",
+    "CRN": "10176",
+    "subject": "CSC",
+    "classNum": "475",
+    "section": "003",
+    "startTime": "0930",
+    "endTime": "1045",
+    "days": "TR"
+  },
+  {
+    "className": "Introduction to Computer Science",
+    "CRN": "10076",
+    "subject": "CSC",
+    "classNum": "500",
+    "section": "001",
+    "startTime": "1700",
+    "endTime": "2020",
+    "days": "R"
+  },
+  {
+    "className": "Computer Gaming",
+    "CRN": "10078",
+    "subject": "CSC",
+    "classNum": "521",
+    "section": "001",
+    "startTime": "1300",
+    "endTime": "1415",
+    "days": "MW"
+  },
+  {
+    "className": "Network Programming",
+    "CRN": "10082",
+    "subject": "CSC",
+    "classNum": "544",
+    "section": "001",
+    "startTime": "1700",
+    "endTime": "1930",
+    "days": "T"
+  },
+  {
+    "className": "Network Programming",
+    "CRN": "10086",
+    "subject": "CSC",
+    "classNum": "544",
+    "section": "002",
+    "startTime": "1700",
+    "endTime": "1930",
+    "days": "T"
+  },
+  {
+    "className": "Deep Machine Learning",
+    "CRN": "10087",
+    "subject": "CSC",
+    "classNum": "592",
+    "section": "001",
+    "startTime": "1530",
+    "endTime": "1645",
+    "days": "TR"
+  },
+  {
+    "className": "Intro to Quantum",
+    "CRN": "13912",
+    "subject": "CSC",
+    "classNum": "592",
+    "section": "002",
+    "startTime": "1100",
+    "endTime": "1215",
+    "days": "TR"
+  },
+  {
+    "className": "Internet of Things",
+    "CRN": "13805",
+    "subject": "CSC",
+    "classNum": "592",
+    "section": "003",
+    "startTime": "0930",
+    "endTime": "1045",
+    "days": "TR"
+  },
+  {
+    "className": "Research Project",
+    "CRN": "11394",
+    "subject": "CSC",
+    "classNum": "594",
+    "section": "001",
+    "startTime": "1400",
+    "endTime": "1515",
+    "days": "TR"
+  }
+]

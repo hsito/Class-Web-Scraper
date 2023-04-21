@@ -109,3 +109,4 @@ DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
 HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
 
 DOWNLOAD_TIMEOUT = 10
+CONCURRENT_REQUESTS_PER_DOMAIN = 1

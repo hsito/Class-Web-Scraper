@@ -15,4 +15,7 @@ class CoursesItem(scrapy.Item):
     classNum = scrapy.Field()
     section = scrapy.Field()
     courseDescription = scrapy.Field()
+    startTime = scrapy.Field()
+    endTime = scrapy.Field()
+    days = scrapy.Field()
 
