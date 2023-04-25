@@ -1,6 +1,5 @@
 import scrapy
 from scrapy_splash import SplashRequest
-from scrapy import FormRequest
 from scrapy.selector import Selector
 import re
 from Courses.items import CoursesItem 
@@ -69,7 +68,32 @@ end
             course_description_table = tableRows[i + 1]
             time = course_description_table.css("td > table > tbody > tr:nth-child(2) > td:nth-child(2)::text").get()
             days = course_description_table.css("td > table > tbody > tr:nth-child(2) > td:nth-child(3)::text").get()
-            
+            professor = course_description_table.css("td > table > tbody > tr:nth-child(2) > td:nth-child(7)::text").get()
+
+
+
+            if professor is None:
+                continue
+
+
+            professor = professor.strip()
+            professor = professor.split()
+            print('Professor List of Names ')
+            print(professor)
+
+
+            if len(professor) == 3:
+                loader.add_value('professorFirstName', professor[0])
+                loader.add_value('professorLastName', professor[1])
+            elif len(professor) == 4:
+                loader.add_value('professorFirstName', professor[0])
+                loader.add_value('professorLastName', professor[2])
+
+
+
+
+
+
             # if there are no days then we will not count this course
             if days is None or days == "" or days == " ":
                 continue
@@ -98,7 +122,6 @@ end
 
             course = course.strip()
             course_tokens = re.split(r'\s+-\s+', course)
-            print(len(course_tokens))
             if len(course_tokens) == 4:
                 subject = course_tokens[2]
                 subject, classNum = subject.split(" ")

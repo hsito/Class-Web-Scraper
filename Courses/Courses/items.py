@@ -18,4 +18,6 @@ class CoursesItem(scrapy.Item):
     startTime = scrapy.Field()
     endTime = scrapy.Field()
     days = scrapy.Field()
+    professorFirstName = scrapy.Field()
+    professorLastName = scrapy.Field()
 
